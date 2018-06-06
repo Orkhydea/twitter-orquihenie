@@ -18,7 +18,6 @@ var enviarTweet = function (event) {
 
 var checkTextArea = function () {
     var textArea = document.getElementById("tweet-area");
-    var tweetContainer = document.getElementById("tweets");
     if (textArea.value == "")  {
         btnTweet.disabled = true;
     } else{
