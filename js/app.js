@@ -29,6 +29,7 @@ var checkTextArea = function () {
 //se agrego el evento al btn de tweet
 var btnTweet = document.getElementById("btn-tweet");
 console.log(btnTweet);
-
-btnTweet.addEventListener("focus", )
+var textArea = document.getElementById("tweet-area");
+textArea.addEventListener("focus", checkTextArea );
+textArea.addEventListener("keydown", checkTextArea);
 btnTweet.addEventListener("click", enviarTweet);
